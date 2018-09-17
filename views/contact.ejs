@@ -1,0 +1,23 @@
+<html>
+        <head>
+            <style>
+                body{background-color:aquamarine; text-decoration-style:wavy; font-family: Calibri; color:brown; padding: 30px}
+                h1{font-size: 48px; text-align: center; text-transform: uppercase}
+            </style>
+        </head>
+        <body>
+                <% include partials/nav.ejs %>
+            <p>Contact Us!!</p>
+            
+
+            <form id ="contact-form" method= "POST" action="/contact">
+                <label for="who">Who do you want to contact?</label>
+                <input type="text" name="who" >
+                <label for="department">Which Department?</label>
+                <input type="text" name="department" >
+                <label for="email">Your email</label>
+                <input type="email" name="email">
+                <input type="submit"value="submit" />
+            </form>
+        </body>
+    </html>

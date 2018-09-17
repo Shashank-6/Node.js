@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <style>
+            body{background-color:aquamarine; text-decoration-style:wavy; font-family: Calibri; color:brown; padding: 30px}
+            h1{font-size: 48px; text-align: center; text-transform: uppercase}
+        </style>
+    </head>
+    <body>
+        <% include partials/nav.ejs %>
+        <h1>Welcome to the profile of <%=person %> !!!</h1>
+        <p>Age: <strong><%= data.age %></strong></p> 
+        <p>Job: <strong><%= data.job %></strong></p>
+        <h2>Hobbies</h2>
+        <ul>
+            <% data.hobbies.forEach(function(item){ %>
+            <li><%= item %></li>
+        <% }); %>
+        </ul>
+    </body>
+</html>

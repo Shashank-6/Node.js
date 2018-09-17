@@ -1,0 +1,17 @@
+{
+  "name": "first-app",
+  "version": "1.0.0",
+  "description": "The India national cricket team, also known as Team India and Men in Blue, is governed by the Board of Control for Cricket in India (BCCI), and is a full member of the International Cricket Council (ICC) with Test, One Day International (ODI) and Twenty20 International (T20I) status.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

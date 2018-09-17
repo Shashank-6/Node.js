@@ -1,0 +1,14 @@
+<html>
+        <head>
+            <style>
+                body{background-color:aquamarine; text-decoration-style:wavy; font-family: Calibri; color:brown; padding: 30px}
+                h1{font-size: 48px; text-align: center; text-transform: uppercase}
+            </style>
+        </head>
+        <body>
+                <% include partials/nav.ejs %>
+            <p>Contact Us!!</p>
+            <p> Thanks for getting in touch</p>
+            <p> You contacted <%= data.who %> in the departement <%= data.department %></p>
+        </body>
+    </html>
